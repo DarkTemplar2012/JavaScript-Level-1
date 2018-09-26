@@ -1,0 +1,45 @@
+body {
+  margin: 50px;
+  padding: 50px;
+}
+
+#galerry {
+  display: inline;
+}
+
+.productUnit {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.productUnit img {
+  display: inline-block;
+  height: 100%;
+  width: auto;
+}
+
+#big_picture {
+  position: relative;
+  width: max-content;
+}
+
+#left {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 45%;
+}
+
+#right {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+
+.buyButtom {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
